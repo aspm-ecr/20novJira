@@ -34,7 +34,7 @@ jobs:
         name: Register the artifact
         uses: cloudbees-io/register-build-artifact@v2
         with:
-          name: qa-go-repo
+          name: 20novJira
           version: 0.1
           url: 020229604682.dkr.ecr.us-east-1.amazonaws.com/throwaway/actions/vulnerable-image:0.1
 
